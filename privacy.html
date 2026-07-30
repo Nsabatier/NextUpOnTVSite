@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Politique de confidentialité de Next Up On TV." />
     <meta name="theme-color" content="#050505" />
+    <link rel="alternate" hreflang="fr" href="https://nextupontv.app/privacy.html" />
+    <link rel="alternate" hreflang="en" href="https://nextupontv.app/en/privacy.html" />
     <title>Confidentialité — Next Up On TV</title>
     <link rel="icon" href="assets/app-icon.png" type="image/png" />
     <link rel="stylesheet" href="assets/styles.css" />
@@ -15,7 +17,13 @@
     <header class="legal-header">
       <div class="container">
         <a class="footer-brand" href="index.html"><img src="assets/app-icon.png" alt="" /><strong>Next Up On TV</strong></a>
-        <nav aria-label="Navigation"><a href="index.html">Accueil</a><a href="support.html">Support</a></nav>
+        <div class="legal-nav-group">
+          <nav aria-label="Navigation"><a href="index.html">Accueil</a><a href="support.html">Support</a></nav>
+          <nav class="language-switcher" aria-label="Choisir la langue">
+            <a href="privacy.html" hreflang="fr" data-language="fr" aria-current="page"><span aria-hidden="true">🇫🇷</span><span>FR</span></a>
+            <a href="en/privacy.html" hreflang="en" data-language="en"><span aria-hidden="true">🇬🇧</span><span>EN</span></a>
+          </nav>
+        </div>
       </div>
     </header>
     <main id="contenu" class="legal-main">
@@ -23,23 +31,71 @@
         <p class="kicker accent">VIE PRIVÉE</p>
         <h1>Politique de confidentialité</h1>
         <p class="legal-lead">Next Up On TV est conçue pour fonctionner sans compte, sans publicité et sans suivi de votre comportement.</p>
-        <p class="updated">DERNIÈRE MISE À JOUR · 29 JUILLET 2026</p>
+        <p class="updated">DERNIÈRE MISE À JOUR · 30 JUILLET 2026</p>
         <div class="legal-content">
           <section>
-            <h2>Données conservées sur votre appareil</h2>
-            <p>Votre bibliothèque de séries, votre progression et vos préférences sont conservées localement sur votre iPhone. Next Up On TV ne collecte aucune donnée d’analyse ou de comportement.</p>
+            <h2>Éditeur</h2>
+            <p>Next Up On TV est développée par Nicolas Sabatier, développeur indépendant. Pour toute question, vous pouvez écrire à <a href="mailto:nextupontv@gmail.com">nextupontv@gmail.com</a>.</p>
           </section>
           <section>
-            <h2>Connexions optionnelles</h2>
-            <p>Vous pouvez choisir de connecter l’application à Trakt ou BetaSeries pour importer ou synchroniser votre bibliothèque. Ces connexions sont facultatives et ne sont activées qu’à votre demande. Les données échangées sont alors soumises aux politiques de confidentialité des services concernés.</p>
+            <h2>Ce que fait l’application</h2>
+            <p>Next Up On TV est une application de suivi de séries TV. Elle vous permet de gérer votre bibliothèque, votre progression et les prochaines sorties directement sur votre iPhone. Aucun compte n’est nécessaire. Vous pouvez toutefois connecter volontairement un compte Trakt ou BetaSeries pour importer ou synchroniser vos données.</p>
+          </section>
+          <section>
+            <h2>Données traitées</h2>
+            <p>Next Up On TV n’exploite aucun serveur lui appartenant pour collecter ou stocker vos données personnelles.</p>
+            <div class="data-list" role="list">
+              <article role="listitem">
+                <h3>Bibliothèque, progression et préférences</h3>
+                <p><strong>Stockage :</strong> localement sur votre appareil.</p>
+                <p><strong>Finalité :</strong> fonctionnement de l’application, y compris hors ligne.</p>
+              </article>
+              <article role="listitem">
+                <h3>Identifiants et jetons d’authentification</h3>
+                <p><strong>Origine :</strong> Trakt ou BetaSeries, uniquement si vous connectez l’un de ces services.</p>
+                <p><strong>Stockage :</strong> trousseau sécurisé d’iOS (Keychain).</p>
+                <p><strong>Finalité :</strong> connexion à votre compte et synchronisation demandée.</p>
+              </article>
+              <article role="listitem">
+                <h3>Statut d’achat</h3>
+                <p><strong>Origine et stockage :</strong> gérés par Apple via StoreKit lorsqu’un achat est proposé.</p>
+                <p><strong>Finalité :</strong> déblocage des fonctionnalités concernées. Next Up On TV ne reçoit et ne stocke aucune donnée bancaire.</p>
+              </article>
+            </div>
+          </section>
+          <section>
+            <h2>Services tiers et échanges réseau</h2>
+            <p>Selon les fonctionnalités que vous choisissez d’utiliser, l’application peut communiquer avec Trakt, BetaSeries et Apple. Les connexions à Trakt et BetaSeries sont facultatives. Les données échangées avec ces services sont soumises à leurs propres politiques de confidentialité&nbsp;: <a href="https://trakt.tv/privacy" rel="noopener noreferrer">Trakt</a> et <a href="https://www.betaseries.com/legal/privacy" rel="noopener noreferrer">BetaSeries</a>.</p>
           </section>
           <section>
             <h2>Traduction sur l’appareil</h2>
             <p>Les traductions proposées par l’application sont réalisées directement sur votre appareil lorsque la fonction est disponible. Le contenu de votre bibliothèque n’est pas envoyé à un service publicitaire ou analytique.</p>
           </section>
           <section>
-            <h2>Publicité et tracking</h2>
-            <p>Next Up On TV ne contient aucun outil publicitaire et n’utilise aucun traceur pour mesurer votre activité dans l’application.</p>
+            <h2>Ce que nous ne faisons pas</h2>
+            <ul>
+              <li>Aucun outil d’analyse, de suivi publicitaire ou de profilage.</li>
+              <li>Aucune collecte de données à des fins publicitaires.</li>
+              <li>Aucune vente de vos données personnelles.</li>
+              <li>Aucune donnée personnelle stockée sur un serveur appartenant à Next Up On TV.</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Notifications</h2>
+            <p>Les notifications de l’application sont planifiées et déclenchées localement sur votre appareil. Aucun service de notification push distant n’est utilisé.</p>
+          </section>
+          <section>
+            <h2>Vos droits et la suppression des données</h2>
+            <p>Next Up On TV ne conservant aucune donnée personnelle sur un serveur lui appartenant, il n’existe aucune donnée à consulter, rectifier ou supprimer auprès de l’éditeur. Vous pouvez gérer vos données directement dans l’application et supprimer l’ensemble des données locales en supprimant l’application de votre iPhone.</p>
+            <p>Si vous connectez Trakt ou BetaSeries, vous pouvez vous déconnecter depuis les réglages de l’application. Les données détenues par ces services restent gérées depuis votre compte auprès du service concerné.</p>
+          </section>
+          <section>
+            <h2>Mineurs</h2>
+            <p>Next Up On TV n’est pas destinée à collecter sciemment des données personnelles concernant des mineurs de moins de 16 ans. L’utilisation facultative de Trakt ou BetaSeries est soumise aux conditions du service concerné.</p>
+          </section>
+          <section>
+            <h2>Modifications de cette politique</h2>
+            <p>Cette politique peut être mise à jour pour refléter les évolutions de l’application. La date de dernière mise à jour figure en haut de cette page. Les changements significatifs pourront également être signalés dans les notes de version.</p>
           </section>
           <section>
             <h2>Nous contacter</h2>
