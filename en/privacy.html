@@ -32,7 +32,7 @@
         <p class="kicker accent">PRIVACY</p>
         <h1>Privacy policy</h1>
         <p class="legal-lead">Next Up On TV is designed to work without an account, advertising or behavioural tracking.</p>
-        <p class="updated">LAST UPDATED · 30 JULY 2026</p>
+        <p class="updated">LAST UPDATED · 5 AUGUST 2026</p>
         <div class="legal-content">
           <section>
             <h2>Publisher</h2>
@@ -40,7 +40,7 @@
           </section>
           <section>
             <h2>What the app does</h2>
-            <p>Next Up On TV is a TV show tracking app. It lets you manage your library, progress and upcoming releases directly on your iPhone. No account is required. You may optionally connect a Trakt or BetaSeries account to import or sync your data.</p>
+            <p>Next Up On TV is a TV show tracking app. It lets you search for shows and manage your library, progress and upcoming releases directly on your iPhone. No account is required. You may import a local file or optionally connect a Trakt or BetaSeries account to import or sync the actions you choose.</p>
           </section>
           <section>
             <h2>Data processed</h2>
@@ -52,10 +52,19 @@
                 <p><strong>Purpose:</strong> to operate the app, including offline.</p>
               </article>
               <article role="listitem">
+                <h3>Searches and show metadata</h3>
+                <p><strong>Transmission:</strong> search terms and show identifiers are sent to TVMaze to retrieve show and episode records. If TVMaze does not recognise a title, the search may also be sent to BetaSeries without an account to find its French title.</p>
+                <p><strong>Purpose:</strong> to display the requested results, summaries, images and schedules.</p>
+              </article>
+              <article role="listitem">
                 <h3>Account identifiers and authentication tokens</h3>
                 <p><strong>Source:</strong> Trakt or BetaSeries, only when you connect one of these services.</p>
                 <p><strong>Storage:</strong> the secure iOS Keychain.</p>
-                <p><strong>Purpose:</strong> to connect your account and perform the sync you requested.</p>
+                <p><strong>Purpose:</strong> to connect your account and perform the import or sync you requested. The relevant watch actions are then sent to the service you enabled.</p>
+              </article>
+              <article role="listitem">
+                <h3>Import files</h3>
+                <p><strong>Processing:</strong> Trakt, BetaSeries or Simkl files you select are parsed locally on the device. The required titles and identifiers are then looked up through TVMaze to create local records.</p>
               </article>
               <article role="listitem">
                 <h3>Purchase status</h3>
@@ -66,7 +75,8 @@
           </section>
           <section>
             <h2>Third-party services and network communication</h2>
-            <p>Depending on the features you choose to use, the app may communicate with Trakt, BetaSeries and Apple. Connections to Trakt and BetaSeries are optional. Data exchanged with these services is governed by their own privacy policies: <a href="https://trakt.tv/privacy" rel="noopener noreferrer">Trakt</a> and <a href="https://www.betaseries.com/legal/privacy" rel="noopener noreferrer">BetaSeries</a>.</p>
+            <p>The app uses <a href="https://www.tvmaze.com/site/privacy" rel="noopener noreferrer">TVMaze</a> for its catalogue and search. It may use <a href="https://www.betaseries.com/legal/privacy" rel="noopener noreferrer">BetaSeries</a> as a French-title index without an account, or with your account if you choose import and sync. Connecting to <a href="https://trakt.tv/privacy" rel="noopener noreferrer">Trakt</a> is also optional. When you tap a streaming-availability link, the app opens <a href="https://support.justwatch.com/article/privacy-policy" rel="noopener noreferrer">JustWatch</a>. Purchases and restorations are processed by <a href="https://www.apple.com/legal/privacy/" rel="noopener noreferrer">Apple</a>.</p>
+            <p>These services may receive your IP address, technical information required for the request and, for an account you connected, the identifiers and actions needed for the feature you requested. Their processing is governed by their own privacy policies.</p>
           </section>
           <section>
             <h2>On-device translation</h2>
@@ -80,10 +90,6 @@
               <li>No sale of your personal data.</li>
               <li>No personal data stored on a server belonging to Next Up On TV.</li>
             </ul>
-          </section>
-          <section>
-            <h2>Notifications</h2>
-            <p>App notifications are scheduled and delivered locally on your device. No remote push notification service is used.</p>
           </section>
           <section>
             <h2>Your rights and deleting your data</h2>
