@@ -26,7 +26,8 @@ publier directement les fichiers statiques ci-dessus.
 
 ## Éléments à compléter avant le lancement de l’app
 
-1. Remplacer les boutons « Bientôt sur l’App Store » par le lien App Store.
+1. Après la publication de l’app, transformer les boutons App Store en liens vers
+   `https://apps.apple.com/app/id6789129002`.
 2. Relire la politique de confidentialité et vérifier qu’elle correspond
    exactement au fonctionnement publié de l’application.
 
