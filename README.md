@@ -24,11 +24,9 @@ Les autres fichiers présents dans le dépôt servent uniquement à produire
 l’aperçu privé proposé pendant la création du site. Cloudflare Pages peut
 publier directement les fichiers statiques ci-dessus.
 
-## Éléments à compléter avant le lancement de l’app
+## Élément à vérifier après chaque mise à jour de l’app
 
-1. Après l’acceptation et la publication de l’app, ajouter un bouton lié à
-   `https://apps.apple.com/app/id6789129002`.
-2. Relire la politique de confidentialité et vérifier qu’elle correspond
+1. Relire la politique de confidentialité et vérifier qu’elle correspond
    exactement au fonctionnement publié de l’application.
 
 ## Mettre le site sur GitHub
